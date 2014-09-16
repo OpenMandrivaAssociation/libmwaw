@@ -1,2 +1,4 @@
+removed_sources:
+  libmwaw-0.2.0.tar.xz: f771a8e726c205b26b895e3dff813ae8d2742f2b
 sources:
-  "libmwaw-0.2.0.tar.xz": f771a8e726c205b26b895e3dff813ae8d2742f2b
+  libmwaw-0.3.2.tar.xz: 36532c7007cd444df06d38abf8678b26282a7de8

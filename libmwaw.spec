@@ -1,13 +1,13 @@
 %define fname	mwaw
-%define api	0.2
-%define major	2
+%define api	0.3
+%define major	3
 %define libname	%mklibname %{fname} %{api} %{major}
 %define devname	%mklibname -d %{fname}
 
 Summary:	Import library for some old mac text documents
 Name:		libmwaw
-Version:	0.2.0
-Release:	3
+Version:	0.3.2
+Release:	1
 Group:		System/Libraries
 # The entire source code is LGPLv2+/MPLv2.0 except
 # src/lib/MWAWOLEStream.[ch]xx which are BSD. There is also
@@ -18,8 +18,7 @@ Url:		http://sourceforge.net/projects/libmwaw/
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.xz
 BuildRequires:	doxygen
 BuildRequires:	boost-devel
-BuildRequires:	pkgconfig(libwpd-0.9)
-BuildRequires:	pkgconfig(libwpg-0.2)
+BuildRequires:	pkgconfig(librevenge-0.0)
 BuildRequires:	pkgconfig(zlib)
 
 %description
@@ -71,6 +70,7 @@ rm -f %{buildroot}/%{_bindir}/mwawFile
 %{_bindir}/mwaw2csv
 %{_bindir}/mwaw2html
 %{_bindir}/mwaw2raw
+%{_bindir}/mwaw2svg
 %{_bindir}/mwaw2text
 
 %files -n %{libname}
