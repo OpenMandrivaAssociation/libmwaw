@@ -56,8 +56,6 @@ developing applications that use %{name}.
 %setup -q
 
 %build
-CFLAGS="%{optflags} -Qunused-arguments" \
-CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure \
 	--disable-zip
 %make
