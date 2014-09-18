@@ -56,7 +56,7 @@ developing applications that use %{name}.
 %setup -q
 
 %build
-%configure \
+%configure2_5x \
 	--disable-zip
 %make
 
