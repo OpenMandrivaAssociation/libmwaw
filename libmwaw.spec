@@ -6,8 +6,8 @@
 
 Summary:	Import library for some old mac text documents
 Name:		libmwaw
-Version:	0.3.2
-Release:	1
+Version:	0.3.4
+Release:	0.1
 Group:		System/Libraries
 # The entire source code is LGPLv2+/MPLv2.0 except
 # src/lib/MWAWOLEStream.[ch]xx which are BSD. There is also
