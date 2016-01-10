@@ -6,7 +6,7 @@
 
 Summary:	Import library for some old mac text documents
 Name:		libmwaw
-Version:	0.3.6
+Version:	0.3.7
 Release:	1
 Group:		System/Libraries
 # The entire source code is LGPLv2+/MPLv2.0 except
@@ -15,7 +15,7 @@ Group:		System/Libraries
 # it is used for.
 License:	(LGPLv2+ or MPLv2.0) and BSD
 Url:		http://sourceforge.net/projects/libmwaw/
-Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.xz
+Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	doxygen
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(librevenge-0.0)
