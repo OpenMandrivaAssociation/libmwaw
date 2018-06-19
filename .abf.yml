@@ -1,7 +1,2 @@
-removed_sources:
-  libmwaw-0.3.4.tar.xz: b84f1bbeb53e41cdffb512027c161db725fe1cda
-  libmwaw-0.3.5.tar.xz: 46e44a749f2c23ffc66e8fc2b4b45bb08e8de7d1
-  libmwaw-0.3.6.tar.xz: 6f7cfb5f94a08198d288eb0fc2f7307ebdccb960
-  libmwaw-0.3.7.tar.bz2: 8b58073dff4ce59da929e25a627722d6c34f9788
 sources:
-  libmwaw-0.3.13.tar.bz2: 0856813824c3cd94d77bbe07042fb5c6e31754a2
+  libmwaw-0.3.14.tar.bz2: c59a4182d13df9a86cb2503547a1d92158d73099
