@@ -14,7 +14,7 @@ Group:		System/Libraries
 # src/tools/zip/zip.cpp which is GPLv2+, but we do not build the binary
 # it is used for.
 License:	(LGPLv2+ or MPLv2.0) and BSD
-Url:		http://sourceforge.net/projects/libmwaw/
+Url:		https://sourceforge.net/projects/libmwaw/
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	doxygen
 BuildRequires:	boost-devel
