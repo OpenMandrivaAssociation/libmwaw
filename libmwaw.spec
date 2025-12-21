@@ -16,6 +16,11 @@ Group:		System/Libraries
 License:	(LGPLv2+ or MPLv2.0) and BSD
 Url:		https://sourceforge.net/projects/libmwaw/
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	doxygen
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(librevenge-0.0)
