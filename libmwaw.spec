@@ -6,7 +6,7 @@
 
 Summary:	Import library for some old mac text documents
 Name:		libmwaw
-Version:	0.3.22
+Version:	0.3.23
 Release:	1
 Group:		System/Libraries
 # The entire source code is LGPLv2+/MPLv2.0 except
